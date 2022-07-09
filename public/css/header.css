@@ -2,6 +2,7 @@
     background-color: var(--colorAmarillo);
     background-size: cover;
     padding-bottom: 5%;
+    width: 100%;
 }
 .home header section img{
     margin-top: 7%;

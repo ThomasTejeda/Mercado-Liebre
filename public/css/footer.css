@@ -15,6 +15,13 @@ footer{
     font-size: 24px;
     color:  var(--colorGrisOscuro)
 }
+.home footer section h3{
+    text-align: center;
+}
+.home footer section h4{
+    text-align: center;
+}
+
 .home footer section p{
     text-align: center;
     font-size: 16px;

@@ -16,17 +16,19 @@ main section h2{
 main section article {
     background-color: white;
     width: 100%;
-    padding: 10px 0;
-    margin: 10px 0;
-}
-main section article .Cont{
     padding: 15px;
-    border-top: 1px solid var(--colorGrisClaro);
+    margin: 10px 0;
+}  
+
+main section article .contenedor{
+    padding: 15px;
+   border-top: 1px solid var(--colorGrisClaro);
 }
 
-main section article .Descripcion{
+main section article h3{
     display: none;
 }
+
 main section article .Precios{
     font-size: var(--precios);
     color: black;
@@ -51,14 +53,15 @@ main article img{
 
 @media (min-width:461px) {
     main div .Banner {
-        display: block;
+        display: inline-block;
         width: 100%;
     }
-    main section article .Descripcion{
+    main section article h3{
         display: block;
         font-size: var(--descripciones);
         color: var(--colorGrisOscuro);
         margin-top: 10px;
+        
     }
     main section article {
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
@@ -68,12 +71,12 @@ main article img{
 
 /* Desktop */
 
-@media (min-width:461px) {
+@media (min-width:769px) {
     main div .Banner {
         display: block;
         width: 100%;
     }
-    main section article .Descripcion{
+    main section article h3{
         display: block;
         font-size: var(--descripciones);
         color: var(--colorGrisOscuro);

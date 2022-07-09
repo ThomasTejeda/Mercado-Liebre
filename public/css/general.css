@@ -3,10 +3,13 @@
     margin: 0;
     padding: 0;
     font-family: var(--fuenteGral);
+    
 }
 
 body{
     background-color: var(--colorGrisClaro);
+    width: 100%;
+    
 }
 
 a{
